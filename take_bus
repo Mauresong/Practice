@@ -1,0 +1,15 @@
+balance = int(input("请输入公交卡余额：")) 
+
+availableSeat = int(input("空位子：")) 
+
+if balance > 2:
+    print("余额充足，可以买票")
+    if availableSeat >= 1:
+        print("有空位，可以上车")
+       # print("终于可以见到她了")
+    else:
+        print("没有位子，不上车")
+       # print("刀子长度超过规定，等待警察处理")
+else:
+    print("没钱买车票")
+    print("走路回家")
